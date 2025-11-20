@@ -1,0 +1,104 @@
+# 编译输出
+*.o
+*.obj
+*.exe
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Qt特定文件
+*.pro.user*
+*.qmake.stash
+*.qm
+Makefile
+*-build-*
+*.pri.user
+
+# 构建目录
+build/
+debug/
+release/
+release-with-debug/
+
+# IDE文件
+.vscode/
+*.vcxproj*
+*.sln
+*.cbp
+*.layout
+
+# 临时文件
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# 日志文件
+*.log
+logs/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 配置文件
+config.ini
+settings.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.desktop
+
+# 测试输出
+test_*.xml
+coverage/
+gcov/
+
+# 文档生成
+docs/generated/
+doxygen/
+
+# 打包文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.dmg
+*.deb
+*.rpm
+*.msi
+
+# 开发工具
+.clang-format
+.uncrustifyrc
+
+# 资源文件（如果包含大文件）
+resources/large_images/
+resources/videos/
+
+# 备份文件
+*.bak
+*.backup
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+
+# 缓存
+.cache/
+*.cache
+
+# 运行时文件
+*.pid
+*.lock
+
+# 用户特定文件
+user_settings/
+local_config/
