@@ -12,6 +12,7 @@ SOURCES += \
     flightbookingwidget.cpp \
     usermanagementwidget.cpp \
     flightdetailswidget.cpp \
+    authwidget.cpp \
     apimanager.cpp \
     databasehelper.cpp \
     customwidgets.cpp
@@ -22,6 +23,7 @@ HEADERS += \
     flightbookingwidget.h \
     usermanagementwidget.h \
     flightdetailswidget.h \
+    authwidget.h \
     apimanager.h \
     databasehelper.h \
     customwidgets.h
